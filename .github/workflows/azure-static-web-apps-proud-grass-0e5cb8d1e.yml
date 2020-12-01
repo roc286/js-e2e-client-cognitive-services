@@ -33,7 +33,7 @@ jobs:
           ###### End of Repository/Build Configurations ######
           env:
           REACT_APP_COMPUTERVISIONENDPOINT: "https://westus.api.cognitive.microsoft.com/"
-          REACT_APP_COMPUTERVISIONKEY:  $"e3fe20728d3945a6b8fff2e5d7f06d33"
+          REACT_APP_COMPUTERVISIONKEY:  "e3fe20728d3945a6b8fff2e5d7f06d33"
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'

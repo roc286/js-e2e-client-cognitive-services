@@ -12,7 +12,7 @@ function App() {
     setFileSelected(e.target.value)
   }
   const onFileUrlEntered = (e) => {
-
+    console.log("Image Selected.....")
     // hold UI
     setProcessing(true);
     setAnalysis(null);
